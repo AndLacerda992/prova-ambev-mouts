@@ -1,4 +1,4 @@
-![CI](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/AndLacerda992/prova-ambev-mouts/actions/workflows/ci.yml/badge.svg)](https://github.com/AndLacerda992/prova-ambev-mouts/actions)
 
 # Automação Serverest - Cypress + Cucumber
 
