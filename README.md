@@ -20,7 +20,7 @@ Este projeto contém automações de testes para o site [Serverest](https://fron
 
 1. Clone o repositório:
 ```bash
-git clone <url-do-repositorio>
+git clone <https://github.com/AndLacerda992/prova-ambev-mouts.git>
 cd serverest-automation
 ```
 
