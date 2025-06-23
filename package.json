@@ -1,0 +1,50 @@
+{
+  "name": "serverest-automation",
+  "version": "1.0.0",
+  "description": "Automação em Cypress com BDD + Cucumber para o site Serverest",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run --spec 'cypress/e2e/**/*.feature'",
+    "test:headed": "cypress run --headed --spec 'cypress/e2e/**/*.feature'",
+    "test:smoke": "cypress run --env grepTags=\"@smoke\"",
+    "test:login": "cypress run --env grepTags=\"@login\"",
+    "test:cadastro": "cypress run --env grepTags=\"@cadastro\"",
+    "test:api": "cypress run --env grepTags=\"@api\"",
+    "test:ui": "cypress run --env grepTags=\"@login|@cadastro\"",
+    "test:local": "cypress run --config-file cypress.config.local.js",
+    "test:parallel": "cypress run --parallel --record",
+    "report:open": "open cypress/reports/cucumber-html/cucumber-report.html"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "bdd",
+    "automation",
+    "testing",
+    "serverest",
+    "e2e",
+    "api"
+  ],
+  "author": "Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "esbuild": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/serverest-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/serverest-automation/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/serverest-automation#readme"
+} 

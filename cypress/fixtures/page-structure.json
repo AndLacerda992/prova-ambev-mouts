@@ -1,0 +1,58 @@
+{
+  "title": "Front - ServeRest",
+  "inputs": [
+    {
+      "index": 0,
+      "type": "text",
+      "name": "nome",
+      "id": "nome",
+      "placeholder": "Digite seu nome",
+      "data-testid": "nome",
+      "value": ""
+    },
+    {
+      "index": 1,
+      "type": "email",
+      "name": "email",
+      "id": "email",
+      "placeholder": "Digite seu email",
+      "data-testid": "email",
+      "value": ""
+    },
+    {
+      "index": 2,
+      "type": "password",
+      "name": "password",
+      "id": "password",
+      "placeholder": "Digite sua senha",
+      "data-testid": "password",
+      "value": ""
+    },
+    {
+      "index": 3,
+      "type": "checkbox",
+      "name": "administrador",
+      "id": "administrador",
+      "placeholder": "",
+      "data-testid": "checkbox",
+      "value": "on"
+    }
+  ],
+  "buttons": [
+    {
+      "index": 0,
+      "text": "Cadastrar",
+      "type": "submit",
+      "id": "",
+      "data-testid": "cadastrar"
+    }
+  ],
+  "links": [
+    {
+      "index": 0,
+      "text": "Entrar",
+      "href": "",
+      "id": ""
+    }
+  ]
+}
